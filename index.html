@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Godwill | Portfolio</title>
+    <meta
+      name="description"
+      content="Godwill's personal portfolio website"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <div class="logo">G<span>.</span></div>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Godwill</h1>
+            <h2>Frontend Developer & Designer</h2>
+            <p>
+              I build responsive, modern, and user-focused digital experiences
+              that help businesses stand out online.
+            </p>
+            <div class="cta-group">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+
+            <div class="socials">
+              <a href="https://github.com/" target="_blank" aria-label="GitHub">GitHub</a>
+              <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+              <a href="mailto:your-email@example.com" aria-label="Email">Email</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="profile-box">
+              <div class="avatar">G</div>
+              <div>
+                <h3>Available for work</h3>
+                <p>Open to freelance & full-time roles</p>
+              </div>
+            </div>
+
+            <ul class="stats">
+              <li><strong>2+</strong><span>Years Experience</span></li>
+              <li><strong>15+</strong><span>Projects</span></li>
+              <li><strong>100%</strong><span>Commitment</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Turning ideas into digital experiences</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>Who I am</h3>
+              <p>
+                I am a passionate web developer focused on creating polished,
+                responsive websites and apps with clean code and strong user
+                experience.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3>Skills</h3>
+              <p>HTML5 • CSS3 • JavaScript • React • Responsive Design • UI/UX</p>
+            </div>
+
+            <div class="about-card">
+              <h3>Goal</h3>
+              <p>
+                To build fast, visually appealing, and meaningful digital products
+                that solve real problems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image placeholder one"></div>
+              <div class="project-content">
+                <h3>Business Landing Page</h3>
+                <p>
+                  A professional startup landing page designed to convert visitors
+                  into customers.
+                </p>
+                <a href="#">View Project</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image placeholder two"></div>
+              <div class="project-content">
+                <h3>Portfolio Website</h3>
+                <p>
+                  A minimal personal portfolio with elegant typography and responsive
+                  layout.
+                </p>
+                <a href="#">View Project</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image placeholder three"></div>
+              <div class="project-content">
+                <h3>Ecommerce UI</h3>
+                <p>
+                  A clean interface for product browsing, cart management, and
+                  checkout flow.
+                </p>
+                <a href="#">View Project</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something great together</h2>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Godwill. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
